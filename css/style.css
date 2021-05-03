@@ -25,7 +25,7 @@ a {
   flex-direction: column;
 }
 
-.main__text{
+.main__text {
   margin-bottom: 30px;
 }
 
@@ -65,14 +65,14 @@ a {
 .portfolio-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .p-box__item {
   width: 396px;
   border-radius: 3px;
   background: #2A3035;
-  margin: 0 10px 30px;
+  margin: 0 15px 35px;
   text-align: center;
 }
 
@@ -87,6 +87,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.4s;
+}
+
+.site__link:hover .p-box__text {
+  color: #FFDAB5;
 }
 
 .code__link {
